@@ -22,13 +22,14 @@
 
 \usepackage[T1]{fontenc} % Use 8-bit encoding that has 256 glyphs
 %\usepackage{fourier} % Use the Adobe Utopia font for the document - comment this line to return to the LaTeX default
-\usepackage[english]{babel} % English language/hyphenation
+\usepackage[spanish]{babel} % English language/hyphenation
 \usepackage{amsmath,amsfonts,amsthm} % Math packages
+\usepackage[utf8]{inputenc}
 
 \usepackage{lipsum} % Used for inserting dummy 'Lorem ipsum' text into the template
 
 \usepackage{sectsty} % Allows customizing section commands
-\allsectionsfont{\centering \normalfont\scshape} % Make all sections centered, the default font and small caps
+\allsectionsfont{\sffamily\scshape} % Make all sections centered, the default font and small caps
 
 \usepackage{fancyhdr} % Custom headers and footers
 \pagestyle{fancyplain} % Makes all pages in the document conform to the custom headers and footers
@@ -54,13 +55,13 @@
 
 \title{	
 \normalfont \normalsize 
-\textsc{university, school or department name} \\ [25pt] % Your university, school and/or department name(s)
+\textsc{Universidad de Deusto} \\ [25pt] % Your university, school and/or department name(s)
 \horrule{0.5pt} \\[0.4cm] % Thin top horizontal rule
-\huge Assignment Title \\ % The assignment title
+\huge Descripción y justificación de plataforma de microdonaciones para Alboan\\ % The assignment title
 \horrule{2pt} \\[0.5cm] % Thick bottom horizontal rule
 }
 
-\author{John Smith} % Your name
+\author{Gaizka Virumbrales \& Rubén Sánchez} % Your name
 
 \date{\normalsize\today} % Today's date or a custom date
 
@@ -72,24 +73,15 @@
 %	PROBLEM 1
 %----------------------------------------------------------------------------------------
 
-\section{Problem title}
+\section{Descripción del proyecto}
 
-\lipsum[2] % Dummy text
-
-\begin{align} 
-\begin{split}
-(x+y)^3 	&= (x+y)^2(x+y)\\
-&=(x^2+2xy+y^2)(x+y)\\
-&=(x^3+2x^2y+xy^2) + (x^2y+2xy^2+y^3)\\
-&=x^3+3x^2y+3xy^2+y^3
-\end{split}					
-\end{align}
-
-Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies
+El proyecto consiste en la creación de un widget para el apoyo a los proyectos de Alboan mediante microdonaciones.\\
+Este widget permitirá a las diferentes paginas web añadir en sus carros de la compra la opción de donar una pequeña cantidad de dinero a una de los diferentes proyectos que lleva Alboan.\\
+Todo el proyecto estará soportado por una base de datos en la que guardaremos la información de las personas que han hecho una aportación. Con la información de estas podremos continuar el contacto con ellas y crear perfiles de donantes.
 
 %------------------------------------------------
 
-\subsection{Heading on level 2 (subsection)}
+\subsection{El widget}
 
 Lorem ipsum dolor sit amet, consectetuer adipiscing elit. 
 \begin{align}
@@ -115,7 +107,7 @@ Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et 
 %	PROBLEM 2
 %----------------------------------------------------------------------------------------
 
-\section{Lists}
+\section{Alcance del proyecto}
 
 %------------------------------------------------
 
