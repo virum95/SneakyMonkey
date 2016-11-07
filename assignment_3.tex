@@ -1,31 +1,16 @@
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% Short Sectioned Assignment
-% LaTeX Template
-% Version 1.0 (5/5/12)
-%
-% This template has been downloaded from:
-% http://www.LaTeXTemplates.com
-%
-% Original author:
-% Frits Wenneker (http://www.howtotex.com)
-%
-% License:
-% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
-%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 %----------------------------------------------------------------------------------------
 %	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
 %----------------------------------------------------------------------------------------
 
-\documentclass[paper=a4, fontsize=11pt]{scrartcl} % A4 paper and 11pt font size
+\documentclass[paper=a4, fontsize=12pt]{scrartcl} % A4 paper and 11pt font size
 
-\usepackage[T1]{fontenc} % Use 8-bit encoding that has 256 glyphs
 %\usepackage{fourier} % Use the Adobe Utopia font for the document - comment this line to return to the LaTeX default
 \usepackage[spanish]{babel} % English language/hyphenation
+
 \usepackage{amsmath,amsfonts,amsthm} % Math packages
 \usepackage[utf8]{inputenc}
-
+\usepackage{multicol}
 \usepackage{lipsum} % Used for inserting dummy 'Lorem ipsum' text into the template
 
 \usepackage{sectsty} % Allows customizing section commands
@@ -57,11 +42,12 @@
 \normalfont \normalsize 
 \textsc{Universidad de Deusto} \\ [25pt] % Your university, school and/or department name(s)
 \horrule{0.5pt} \\[0.4cm] % Thin top horizontal rule
-\huge Descripción y justificación de plataforma de microdonaciones para Alboan\\ % The assignment title
+\huge Justificación y descripción de plataforma de microdonaciones para alboan\\ % The assignment title
 \horrule{2pt} \\[0.5cm] % Thick bottom horizontal rule
+\author{Gaizka Virumbrales \& Rubén Sánchez} % Your name
 }
 
-\author{Gaizka Virumbrales \& Rubén Sánchez} % Your name
+
 
 \date{\normalsize\today} % Today's date or a custom date
 
@@ -82,34 +68,26 @@ Todo el proyecto estará soportado por una base de datos en la que guardaremos l
 %------------------------------------------------
 
 \subsection{El widget}
-
-Lorem ipsum dolor sit amet, consectetuer adipiscing elit. 
-\begin{align}
-A = 
-\begin{bmatrix}
-A_{11} & A_{21} \\
-A_{21} & A_{22}
-\end{bmatrix}
-\end{align}
-Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.
+Las empresas que decidan participar con este widget, tendrán que añadir unas simples líneas de código en su página web que inyectarán automáticamente el contenido. Este widget es \textit{responsive}, se carga de forma asíncrona y es personalizable por la empresa en cuestión. Además, contará con un soporte para múltiples idiomas.\\
+El código tendrá que estar en dos páginas web: en la anterior al pago o \textit{checkout}, en la que la empresa hace una petición para poner el widget en su sitio web y el la de la confirmación de la compra, en la que la empresa se hace responsable de enviar la información relativa a la donación, en caso de que se haya producido.
 
 %------------------------------------------------
 
 \subsection{La base de datos}
 
 La base de datos del proyecto estara llena de la informacion de las personas que han aportado a los diferentes proyectos. Los datos que incluiremos seran los siguientes:
-
-\begin{itemize}
-	\item Nombre y apellidos
-	\item Correo electrónico
-	\item Documento de identidad
-	\item Dirección 
-	\item Código postal
-	\item Ciudad
-	\item Provincia
-	\item País
-\end{itemize}
-
+\begin{multicols}{2}
+	\begin{itemize}
+		\item Nombre y apellidos
+		\item Correo electrónico
+		\item Documento de identidad
+		\item Dirección 
+		\item Código postal
+		\item Ciudad
+		\item Provincia
+		\item País
+	\end{itemize}
+\end{multicols}
 La información de las personas la obtendremos al pedirles los datos para realizarles el certificado de donación pertinente. Una vez obtenidos los datos del donante lo almacenaremos junto con la donación, para saber de que comercio proviene.\\
 
 Una vez obtenidos los datos los explotaremos con el propósito de ofrecer a los donantes un seguimiento de los proyectos mas en detalle. Al hacer esto estaremos fidelizando a estas personas y dándoles la oportunidad de interesarse en diversos proyectos de la fundación o incluso a asociarse con ella.\\
@@ -119,34 +97,11 @@ Otro de los usos mas potentes de los datos podría ser la visualización de esto
 %----------------------------------------------------------------------------------------
 %	PROBLEM 2
 %----------------------------------------------------------------------------------------
+\section{Justificación}
+La justificación de este proyecto es solo proveer al donante una plataforma sencilla, rápida y cómoda de colaborar con proyectos solidarios. Además, también pretende alcanzar a personas que de otra forma no estarían enteradas de este proyecto. \\
+Dependiendo del tipo de empresa que contrate el servicio, se pueden ofrecer uno u otro proyecto de Alboan. Por ejemplo, si la empresa es del sector de la tecnología se podría ofrecer el proyecto de \textit{Tecnología libre de conflicto}. De esta forma, se logra informar a las personas de los proyectos en los que más interesados podrían estar.
 
 \section{Alcance del proyecto}
 
-%------------------------------------------------
-
-\subsection{Example of list (3*itemize)}
-\begin{itemize}
-	\item First item in a list 
-		\begin{itemize}
-		\item First item in a list 
-			\begin{itemize}
-			\item First item in a list 
-			\item Second item in a list 
-			\end{itemize}
-		\item Second item in a list 
-		\end{itemize}
-	\item Second item in a list 
-\end{itemize}
-
-%------------------------------------------------
-
-\subsection{Example of list (enumerate)}
-\begin{enumerate}
-\item First item in a list 
-\item Second item in a list 
-\item Third item in a list
-\end{enumerate}
-
-%----------------------------------------------------------------------------------------
 
 \end{document}

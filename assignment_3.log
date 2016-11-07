@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2015/dev/Debian) (preloaded format=pdflatex 2016.5.27)  7 NOV 2016 17:45
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2015/dev/Debian) (preloaded format=pdflatex 2016.5.27)  7 NOV 2016 17:49
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -38,11 +38,11 @@ Package tocbasic Info: omitting babel extension for `lof'
 Package tocbasic Info: omitting babel extension for `lot'
 (tocbasic)             because of feature `nobabel' available
 (tocbasic)             for `lot' on input line 117.
-Class scrartcl Info: File `scrsize11pt.clo' used to setup font sizes on input l
+Class scrartcl Info: File `scrsize12pt.clo' used to setup font sizes on input l
 ine 1531.
 
-(/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrsize11pt.clo
-File: scrsize11pt.clo 2013/12/19 v3.12 KOMA-Script font size class option (11pt
+(/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrsize12pt.clo
+File: scrsize12pt.clo 2013/12/19 v3.12 KOMA-Script font size class option (12pt
 )
 )
 (/usr/share/texlive/texmf-dist/tex/latex/koma-script/typearea.sty
@@ -59,21 +59,21 @@ Package typearea, 2013/12/19 v3.12 KOMA-Script package (type area)
 \ta@temp=\skip44
 \footheight=\skip45
 Package typearea Info: These are the values describing the layout:
-(typearea)             DIV  = 10
+(typearea)             DIV  = 12
 (typearea)             BCOR = 0.0pt
 (typearea)             \paperwidth      = 597.50793pt
-(typearea)              \textwidth      = 418.25555pt
+(typearea)              \textwidth      = 448.13095pt
 (typearea)              DIV departure   = -6%
-(typearea)              \evensidemargin = 17.3562pt
-(typearea)              \oddsidemargin  = 17.3562pt
+(typearea)              \evensidemargin = 2.4185pt
+(typearea)              \oddsidemargin  = 2.4185pt
 (typearea)             \paperheight     = 845.04694pt
-(typearea)              \textheight     = 595.80026pt
-(typearea)              \topmargin      = -25.16531pt
-(typearea)              \headheight     = 17.0pt
-(typearea)              \headsep        = 20.40001pt
-(typearea)              \topskip        = 11.0pt
-(typearea)              \footskip       = 47.6pt
-(typearea)              \baselineskip   = 13.6pt
+(typearea)              \textheight     = 635.5pt
+(typearea)              \topmargin      = -41.72441pt
+(typearea)              \headheight     = 18.125pt
+(typearea)              \headsep        = 21.75pt
+(typearea)              \topskip        = 12.0pt
+(typearea)              \footskip       = 50.75pt
+(typearea)              \baselineskip   = 14.5pt
 (typearea)              on input line 1330.
 )
 \c@part=\count80
@@ -88,14 +88,7 @@ Package typearea Info: These are the values describing the layout:
 \c@figure=\count86
 \c@table=\count87
 \bibindent=\dimen102
-) (/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
-Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
-
-(/usr/share/texlive/texmf-dist/tex/latex/base/t1enc.def
-File: t1enc.def 2005/09/27 v1.99g Standard LaTeX file
-LaTeX Font Info:    Redeclaring font encoding T1 on input line 43.
-))
-(/usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty
+) (/usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty
 Package: babel 2014/09/25 3.9l The Babel package
 
 (/usr/share/texlive/texmf-dist/tex/generic/babel-spanish/spanish.ldf
@@ -407,9 +400,58 @@ Now handling font encoding U ...
    defining Unicode char U+2122 (decimal 8482)
    defining Unicode char U+2423 (decimal 9251)
 ))
+(/usr/share/texlive/texmf-dist/tex/latex/tools/multicol.sty
+Package: multicol 2014/10/28 v1.8i multicolumn formatting (FMi)
+\c@tracingmulticols=\count102
+\mult@box=\box29
+\multicol@leftmargin=\dimen113
+\c@unbalance=\count103
+\c@collectmore=\count104
+\doublecol@number=\count105
+\multicoltolerance=\count106
+\multicolpretolerance=\count107
+\full@width=\dimen114
+\page@free=\dimen115
+\premulticols=\dimen116
+\postmulticols=\dimen117
+\multicolsep=\skip54
+\multicolbaselineskip=\skip55
+\partial@page=\box30
+\last@line=\box31
+\maxbalancingoverflow=\dimen118
+\mult@rightbox=\box32
+\mult@grightbox=\box33
+\mult@gfirstbox=\box34
+\mult@firstbox=\box35
+\@tempa=\box36
+\@tempa=\box37
+\@tempa=\box38
+\@tempa=\box39
+\@tempa=\box40
+\@tempa=\box41
+\@tempa=\box42
+\@tempa=\box43
+\@tempa=\box44
+\@tempa=\box45
+\@tempa=\box46
+\@tempa=\box47
+\@tempa=\box48
+\@tempa=\box49
+\@tempa=\box50
+\@tempa=\box51
+\@tempa=\box52
+\c@columnbadness=\count108
+\c@finalcolumnbadness=\count109
+\last@try=\dimen119
+\multicolovershoot=\dimen120
+\multicolundershoot=\dimen121
+\mult@nat@firstbox=\box53
+\colbreak@box=\box54
+\mc@col@check@num=\count110
+)
 (/usr/share/texlive/texmf-dist/tex/latex/lipsum/lipsum.sty
 Package: lipsum 2014/07/27 v1.3 150 paragraphs of Lorem Ipsum dummy text
-\c@lips@count=\count102
+\c@lips@count=\count111
 )
 (/usr/share/texlive/texmf-dist/tex/latex/sectsty/sectsty.sty
 Package: sectsty 2002/02/25 v2.0.2 Commands to change all sectional heading sty
@@ -421,18 +463,18 @@ Class scrartcl Warning: Usage of package `fancyhdr' together
 (scrartcl)              I'd suggest to use 
 (scrartcl)              package `scrpage2' or `scrlayer-scrpage'.
 (scrartcl)              Nevertheless, using requested
-(scrartcl)              package `fancyhdr' on input line 35.
+(scrartcl)              package `fancyhdr' on input line 20.
 
 (/usr/share/texlive/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
-\fancy@headwidth=\skip54
-\f@ncyO@elh=\skip55
-\f@ncyO@erh=\skip56
-\f@ncyO@olh=\skip57
-\f@ncyO@orh=\skip58
-\f@ncyO@elf=\skip59
-\f@ncyO@erf=\skip60
-\f@ncyO@olf=\skip61
-\f@ncyO@orf=\skip62
+\fancy@headwidth=\skip56
+\f@ncyO@elh=\skip57
+\f@ncyO@erh=\skip58
+\f@ncyO@olh=\skip59
+\f@ncyO@orh=\skip60
+\f@ncyO@elf=\skip61
+\f@ncyO@erf=\skip62
+\f@ncyO@olf=\skip63
+\f@ncyO@orf=\skip64
 )
 (./assignment_3.aux
 LaTeX Info: Redefining \. on input line 6.
@@ -440,37 +482,31 @@ LaTeX Info: Redefining \% on input line 6.
 )
 \openout1 = `assignment_3.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 68.
-LaTeX Font Info:    ... okay on input line 68.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 68.
-LaTeX Font Info:    ... okay on input line 68.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 68.
-LaTeX Font Info:    ... okay on input line 68.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 68.
-LaTeX Font Info:    ... okay on input line 68.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 68.
-LaTeX Font Info:    ... okay on input line 68.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 68.
-LaTeX Font Info:    ... okay on input line 68.
-LaTeX Info: Redefining \. on input line 68.
-LaTeX Info: Redefining \% on input line 68.
-LaTeX Font Info:    Try loading font information for T1+cmss on input line 71.
- (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmss.fd
-File: t1cmss.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-)
-LaTeX Font Info:    Try loading font information for U+msa on input line 71.
-
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Info: Redefining \. on input line 54.
+LaTeX Info: Redefining \% on input line 54.
+LaTeX Font Info:    Try loading font information for U+msa on input line 57.
+ (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 71.
-
+LaTeX Font Info:    Try loading font information for U+msb on input line 57.
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 
-LaTeX Font Warning: Font shape `T1/cmss/bx/sc' undefined
-(Font)              using `T1/cmss/bx/n' instead on input line 76.
+LaTeX Font Warning: Font shape `OT1/cmss/bx/sc' undefined
+(Font)              using `OT1/cmss/bx/n' instead on input line 62.
 
 [1
 
@@ -478,24 +514,16 @@ LaTeX Font Warning: Font shape `T1/cmss/bx/sc' undefined
 
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-Underfull \hbox (badness 10000) in paragraph at lines 113--114
+Underfull \hbox (badness 10000) in paragraph at lines 91--92
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 115--116
+Underfull \hbox (badness 10000) in paragraph at lines 93--94
 
  []
 
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 131.
-
-(/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
-File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-)
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 131.
- [2] [3]
-(./assignment_3.aux
+[2] (./assignment_3.aux
 LaTeX Info: Redefining \. on input line 6.
 LaTeX Info: Redefining \% on input line 6.
 )
@@ -504,27 +532,22 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 3908 strings out of 494958
- 52629 string characters out of 6179386
- 253316 words of memory out of 5000000
- 7089 multiletter control sequences out of 15000+600000
- 20040 words of font info for 55 fonts, out of 8000000 for 9000
+ 3744 strings out of 494958
+ 51468 string characters out of 6179386
+ 257491 words of memory out of 5000000
+ 6948 multiletter control sequences out of 15000+600000
+ 10480 words of font info for 39 fonts, out of 8000000 for 9000
  40 hyphenation exceptions out of 8191
- 39i,14n,47p,395b,384s stack positions out of 5000i,500n,10000p,200000b,80000s
- </home/gusy/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecsx1200.600pk> </home/gu
-sy/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecsx1440.600pk> </home/gusy/.texmf-va
-r/fonts/pk/ljfour/jknappen/ec/ecrm1095.600pk> </home/gusy/.texmf-var/fonts/pk/l
-jfour/jknappen/ec/ecrm1440.600pk> </home/gusy/.texmf-var/fonts/pk/ljfour/jknapp
-en/ec/ecrm2074.600pk> </home/gusy/.texmf-var/fonts/pk/ljfour/jknappen/ec/eccc10
-95.600pk></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.p
-fb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></u
-sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/shar
-e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texliv
-e/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on assignment_3.pdf (3 pages, 88875 bytes).
+ 39i,10n,47p,396b,384s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></u
+sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/shar
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texli
+ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texlive/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on assignment_3.pdf (2 pages, 65238 bytes).
 PDF statistics:
- 215 PDF objects out of 1000 (max. 8388607)
- 47 compressed objects within 1 object stream
+ 31 PDF objects out of 1000 (max. 8388607)
+ 21 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
